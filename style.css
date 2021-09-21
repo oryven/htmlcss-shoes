@@ -8,6 +8,20 @@ body {
     font-family: ‘Rubik Mono One’, sans-serif;
 }
 
+.number {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    z-index: 10;
+}
+
+span{
+    background-color: honeydew;
+    border-radius: 100%;
+    padding: 10px 15px;
+    margin-right: 20px;
+}
+
 section {
     height: 100vh;
     width: 100vw;
@@ -24,6 +38,15 @@ section {
     transform: translate(-50%, -50%);
 }
 
+img {
+     width: 500px;
+}
+
+h1 {
+    width: 450px;
+    text-align: center;
+}
+
 #rosso {
     background-color: brown;
 }
@@ -34,4 +57,8 @@ section {
 
 #giallo {
     background-color: goldenrod;
+}
+
+#titolo-verde {
+    color: green;
 }
